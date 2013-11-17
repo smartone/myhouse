@@ -21,6 +21,7 @@
 		4E897C1918353A3C0028CB92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E897BFB18353A3C0028CB92 /* UIKit.framework */; };
 		4E897C2118353A3C0028CB92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E897C1F18353A3C0028CB92 /* InfoPlist.strings */; };
 		4E897C2318353A3C0028CB92 /* Drawing_A_HouseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E897C2218353A3C0028CB92 /* Drawing_A_HouseTests.m */; };
+		4E897C2E18353A580028CB92 /* DHHouseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E897C2D18353A580028CB92 /* DHHouseView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4E897C1E18353A3C0028CB92 /* Drawing A HouseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Drawing A HouseTests-Info.plist"; sourceTree = "<group>"; };
 		4E897C2018353A3C0028CB92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E897C2218353A3C0028CB92 /* Drawing_A_HouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Drawing_A_HouseTests.m; sourceTree = "<group>"; };
+		4E897C2C18353A580028CB92 /* DHHouseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHHouseView.h; sourceTree = "<group>"; };
+		4E897C2D18353A580028CB92 /* DHHouseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHHouseView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4E897C0918353A3C0028CB92 /* Main.storyboard */,
 				4E897C0C18353A3C0028CB92 /* DHViewController.h */,
 				4E897C0D18353A3C0028CB92 /* DHViewController.m */,
+				4E897C2C18353A580028CB92 /* DHHouseView.h */,
+				4E897C2D18353A580028CB92 /* DHHouseView.m */,
 				4E897C0F18353A3C0028CB92 /* Images.xcassets */,
 				4E897BFE18353A3C0028CB92 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				4E897C0818353A3C0028CB92 /* DHAppDelegate.m in Sources */,
 				4E897C0E18353A3C0028CB92 /* DHViewController.m in Sources */,
 				4E897C0418353A3C0028CB92 /* main.m in Sources */,
+				4E897C2E18353A580028CB92 /* DHHouseView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
